@@ -1,0 +1,15 @@
+
+<!--The example--->
+<nav id="sidebarMenu" class="d-lg-block sidebar ">
+    <div class="position-sticky">
+        <div class="list-group-flush mt-5">
+            <a 
+            *ngFor = "let elem of elements"
+            href="#"
+            class="list-group-item list-group-item-action py-2 ripple "
+            >
+                <i class="me-3"></i><span class = "font">{{ elem }}</span>
+            </a>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,251 @@
+.content{
+    left: -200;
+}
+.title{
+    position: relative;
+    left: 275px ;
+    width: 306px;
+    height: 19px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--texts-555555);
+    text-align: left;
+    font: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+}
+.font-primary{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--primary-009cde);
+    text-align: left;
+    font: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #009CDE;
+    opacity: 1;
+}
+.sub-title{
+    position: relative;
+    top: 9px;
+    left: 18px;
+    width: 236px;
+    height: 22px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--primary-009cde);
+    text-align: left;
+    font: normal normal medium  Montserrat;
+    letter-spacing: 0px;
+    color: #009CDE;
+    opacity: 1;
+}
+.form-row{
+    position: relative;
+    left: 10px;
+}
+.form-box{
+    position: relative;
+    left: 275px;
+    width: 1136px;
+    height: 119px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+    opacity: 1;
+}
+.form-box-2{
+    position: relative; 
+    left: 10px;
+}
+.custom-select{
+    border: 1px solid var(--black-300-9fa6ad);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #9FA6AD;
+    border-radius: 3px;
+    opacity: 1;
+}
+select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: var(--black-500-6a737c);
+    text-align: left;
+    font: normal normal normal Montserrat;
+    letter-spacing: 0px;
+    color: #6A737C;
+    opacity: 1;
+}
+.col-auto {
+    width: min-content;
+}
+
+.minor{
+    width: 71px;
+    height: 35px;
+}
+.mayor{
+    width: 245px;
+    height: 35px; 
+}
+.mayor-minor{
+    width: 156px;
+    height: 35px;
+}
+.form-select{
+    width: 156px;
+    height: 35px;
+}
+.btn-outline{
+    position: relative;
+    left: 1020px;
+    width: 171px;
+    height: 35px;
+    border: 1px solid var(--primary-009cde);
+    border: 1px solid #009CDE;
+    border-radius: 5px;
+    opacity: 1; 
+}
+.btn-primary{
+    position: relative;
+    top: 21px;
+
+}
+.btn-clear{
+    position: relative;
+    top: 21px;
+    width: 132px;
+    height: 30kpx;
+    font: var(--unnamed-font-style-normal) normal 600 14px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--primary-009cde);
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 600  Montserrat;
+    letter-spacing: 0px;
+    color: #009CDE;
+    opacity: 1;
+
+}
+
+.plus-icon-color{
+    color:#009CDE;
+}
+
+.btn-outline p{
+    font: var(--unnamed-font-style-normal) normal 600 14px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal 600  Montserrat;
+    letter-spacing: 0px;
+    color: #009DE0;
+    opacity: 1; 
+}
+.search-results{
+    position: relative;
+    left: 275px; 
+    width: 1136px;
+    height: 444px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+.table{
+    position: relative;
+    left: 18px;
+    width: 1100px;
+    height: 300px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+.table tr{
+    width: 245px;
+    height: 35px;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.table-titles{
+    background: #016691 0% 0% no-repeat padding-box;
+    border-radius: 3px 3px 0px 0px;
+    opacity: 1;
+}
+.table-titles td{
+    width: 51px;
+    height: 18px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 14px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1; 
+}
+.table-search{
+    width: 129px;
+    height: 50px;
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+.table-search td{
+    height: 18px;
+    width: 128px;
+    font: var(--unnamed-font-style-normal) normal normal 14px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1; 
+}
+
+.btn-icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--texts-555555);
+    border: 1px solid #555555;
+    border-radius: 5px;
+    opacity: 1;
+}
+.btn-icon a{
+    align-content: center;
+}
+
+img, svg {
+    vertical-align: unset;
+} 
+input{
+    width: 133px;
+    height: 35px;
+    border: 1px solid var(--black-300-9fa6ad);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #9FA6AD;
+    border-radius: 3px;
+    opacity: 1; 
+}
+.btn-cancel{
+    position: relative;
+    left: 1214px;
+    width: 94px;
+    height: 35px;
+    border: 1px solid var(--primary-009cde);
+    border: 1px solid #009CDE;
+    border-radius: 5px;
+    opacity: 1; 
+}
+.btn-save{
+    position : relative;
+    top: 0px;
+    left: 1212px;
+    width: 88px;
+    height: 35px;
+    background: var(--primary-009cde) 0% 0% no-repeat padding-box;
+    background: #009CDE 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}

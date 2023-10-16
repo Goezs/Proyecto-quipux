@@ -1,0 +1,58 @@
+@media (min-width: 991.98px) {
+    main {
+        padding-left: 240px;
+    }
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    background-color: #6A737C;
+    bottom: 0;
+    left: 0;
+    height: 708;
+    width: 250;
+    /*padding: 58px 0 0;  Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: -1;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        width: 25%;
+    }
+}
+
+.list-group-item{
+    background-color:#6A737C; 
+    color: #fff;
+    opacity: 1;
+}
+.list-group-item:nth-child(3) {
+    background-color: #C8CCD0;
+    opacity: 1;
+    color: #000000; 
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.font{
+    width: 213px;
+    height: 18px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 14px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-200-697075);
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+}

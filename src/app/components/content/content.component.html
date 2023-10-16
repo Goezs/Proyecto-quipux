@@ -1,0 +1,66 @@
+<main class = "conteiner-fluid">
+    <div class = "d-flex">
+        <h1 class = "title my-4">Administración de materias</h1>
+        <button routerLink="../materias" class="btn btn-outline d-flex my-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-circle mx-2 plus-icon-color" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+            </svg>
+            <p class="">Nuevo registro</p>
+        </button>
+    </div>
+    <form class="form-box">
+        <div class="d-flex form-row">
+            <div *ngFor = "let baseSubject of baseSubjects | slice:0:2" class="col-auto mx-2">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">{{ baseSubject.name }}</label>
+                <select class="mx-2 custom-select minor" id="inlineFormCustomSelect">
+                    <option selected></option>
+                    <option *ngFor = "let item of baseSubject.items" value="item[1]">{{ item[0] }}</option>
+                </select>
+            </div>
+            <div *ngFor = "let baseSubject of baseSubjects | slice:2:4" class="col-auto mx-2">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">{{ baseSubject.name }}</label>
+                <select class="mx-2 custom-select mayor" id="inlineFormCustomSelect">
+                    <option selected class = "select-option">Seleccionar</option>
+                    <option *ngFor = "let item of baseSubject.items" value="item[1]">{{ item[0] }}</option>
+                </select>
+            </div>
+
+
+            <div class="col-auto mx-1">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </div>
+            <div class="col-auto mx-1">
+                <button type="reset" class="btn btn-clear">Limpiar filtros</button>
+            </div>           
+        </div>
+    </form>
+    <div class="search-results">
+        <h2 class = "my-4 sub-title">Resultados</h2> 
+        <table class="table">
+            <tr class = "table-titles">
+                <td>Código</td>
+                <td>Materia</td>
+                <td>Profesor</td>
+                <td>Grado</td>
+                <td>Acciones</td>
+            </tr> 
+            <tr class="table-search" *ngFor = "let subject of subjects">
+                <td>{{subject.code}}</td> 
+                <td>{{subject.name}}</td> 
+                <td>{{subject.teacher}}</td> 
+                <td>{{subject.years}}</td> 
+                <td>
+                    <button routerLink="../materias" class = "btn btn-default btn-icon mx-3 btn-eye">
+                            <img [src] = "eyeImage" [alt] = "eyeAlt" height="18" width="18"/>
+                            <div class="eye-text">Ver detalle</div>
+                    </button>
+                    <button routerLink="../modal" type="button" class = "btn btn-icon">
+                        <img [src] = "deleteImage" [alt] = "deleteAlt" height="18" width="18"/>
+                        <div class="delete-text">Eliminar</div>
+                    </button>
+                </td> 
+            </tr> 
+        </table>
+    </div>
+</main>
